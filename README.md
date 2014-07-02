@@ -12,7 +12,7 @@ the following fields in master_template.tex:
 3. Author
 4. Email
 
-The idea behind this project is that, make students 
+The idea behind this project is that, is to make students 
 use git in other to become familiar with it. 
 The courses that the students will submit their 
 assignments will be branches on the master branch. 
