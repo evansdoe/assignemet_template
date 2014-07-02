@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper]{article} % A4 paper and 11pt font size
+
+%% usepackages
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[english]{babel} 
+%\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+%\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+
+% Maths
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{latexsym}
+
+
+% formatting
+\usepackage{parskip}
+\usepackage{fullpage}
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+
+% graphics
+\usepackage[pdftex]{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage[below,section]{placeins} % the one below is better for short assignments
+\usepackage{float} % provides H as float placement specifier
+\usepackage{tikz}
+
+% extras
+\usepackage{moreverb} %\verbatimtabinput{filename.py} preserves indentation
+\usepackage[linktocpage]{hyperref}
+\urlstyle{same}
+%Numbering first level list roman (i,ii,iii) instead of arabic (1,2,3)
+% options are \roman \Roman \alph \Alph \arabic
+\renewcommand{\theenumi}{\roman{enumi}} 
+\renewcommand{\theenumii}{\roman{enumii}}
+% Also achieved with the enumerate package
+\usepackage{enumerate}
+
+
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{African Institute for Mathematical Sciences -- \href{http://www.aims.ac.za}{AIMS}} 
+\\ [25pt] % Your university, school and/or department name(s) and website if there is one.
+\includegraphics[scale=0.25]{images/logo_aims}
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Course Name: Assignment Number \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Evans Doe OCANSEY \\ 
+\href{mailto:evans@aims.ac.za}{evans@aims.ac.za}} % Your name and email address
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 1
+%----------------------------------------------------------------------------------------
+
+\input{questions/qxn1}
+%----------------------------------------------------------------------------------------
+%	PROBLEM 2
+%----------------------------------------------------------------------------------------
+\input{questions/qxn2}
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 3
+%----------------------------------------------------------------------------------------
+
+\input{questions/qxn3}
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 4
+%----------------------------------------------------------------------------------------
+
+\input{questions/qxn4}
+\end{document}
