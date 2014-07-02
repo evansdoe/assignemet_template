@@ -12,7 +12,7 @@ the following fields in master_template.tex:
 3. Author
 4. Email
 
-The idea behind this project is that, make students 
+The idea behind this project is that, is to make students 
 use git in other to become familiar with it. 
 The courses that the students will submit their 
 assignments will be branches on the master branch. 
@@ -50,24 +50,23 @@ $ git commit -am "Changed course name to Python Programming"
 Next we create a branch for each of the 2 
 assignments as follows. 
 
-$ for i in python_assignment_1 \
-python_assignment_2; do git branch $i; done
+$ for i in python_assignment_1 python_assignment_2; do git branch $i; done
 
 Next we checkout python_assignment_1 branch and 
 rename evans_python.tex to evans_python_assignment_1.tex
 by doing the following:
 
 $ git checkout python_assignment_1
+
 $ git mv evans_python.tex evans_python_assignment_1.tex
-$ git commit -m "Renamed evans_python.tex to \
-evans_python_assignment_1.tex"
+
+$ git commit -m "Renamed evans_python.tex to evans_python_assignment_1.tex"
 
 Now open evans_python_assignment_1.tex with your 
 favourite text editor and change Assignment Number 
 to Assignment 1 then commit it. 
 
-$ git commit -am "Changed Assignment Number to \
-Assignment 1"
+$ git commit -am "Changed Assignment Number to Assignment 1"
 
 Next we repeat the same process for the branch
 python_assignment_2. 
