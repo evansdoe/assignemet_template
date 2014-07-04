@@ -56,7 +56,9 @@ rename evans_python.tex to evans_python_assignment_1.tex
 by doing the following:
 
 $ git checkout python_assignment_1
-$ git mv evans_python.tex evans_python_assignment_1.tex
+
+o$ git mv evans_python.tex evans_python_assignment_1.tex
+
 $ git commit -m "Renamed evans_python.tex to evans_python_assignment_1.tex"
 
 Now open evans_python_assignment_1.tex with your 
