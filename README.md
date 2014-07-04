@@ -36,8 +36,7 @@ $ git mv master_template.tex evans_python.tex
 
 We commit after this with 
 
-$ git commit -m "Renamed master_template.tex \
-to evans_python.tex"
+$ git commit -m "Renamed master_template.tex to evans_python.tex"
 
 Now open evans_python.tex with your favorite text
 editor and edit the Course name field. In this case,
